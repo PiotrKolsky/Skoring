@@ -41,7 +41,7 @@ def defaults(df):
         df.GlebokaNiewyplacalnosc2Y.count()))
 
 # Wczytanie danych i EDA
-os.chdir('/home/sas/Zasoby/Python/Zadanie_PKOBP')
+os.chdir('..')
 df_train = pd.read_csv('zbior_uczacy.csv', sep=',', header=0)
 df_test = pd.read_csv('slepy_zbior_testowy.csv', sep=',', header=0)
 
